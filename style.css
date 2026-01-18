@@ -98,3 +98,33 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 }
+.hero-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.btn3{
+width: 201px;
+height: 44px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8px;
+padding: 12px 20px 12px 20px;
+border-radius: 10000px;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+.btn4{
+width: 147px;
+height: 44px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(0, 255, 136, 1);
+border-radius: 10000px;
+color: #00FF88;
+}
