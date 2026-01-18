@@ -1,0 +1,25 @@
+
+
+.navigation-bar> span{
+    
+}
+.navigation-bar{
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px 200px 16px 200px;
+    box-sizing: border-box;
+    background:  rgba(26, 11, 46, 1);
+
+}
+
+.navigation-bar > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    text-decoration: none;
+}
