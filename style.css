@@ -1,3 +1,11 @@
+
+
+.inter-sans-serif {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 *{
     margin: 0 auto;
     padding: 0 auto;
@@ -73,58 +81,77 @@
     right: 50%;
 }
 .btn2{
-width: 75px;
-height: 38px;
-border-radius: 1000px;
-box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
-background: rgba(0, 255, 136, 1);
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 10;
-padding: 8px 16px 8px 16px;
+    width: 75px;
+    height: 38px;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    background: rgba(0, 255, 136, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 8px 16px 8px 16px;
 }
 .TechWave>h2{
-color: rgba(255, 255, 255, 1); 
-font-style: Extra Bold;
-font-size: 60px;
-line-height: 73px;
-text-align: center;
+    color: rgba(255, 255, 255, 1); 
+    font-style: Extra Bold;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
 }
 .TechWave> p{
-color: rgba(255, 255, 255, 1); 
-font-size: 16px;
-line-height: 19px;
-text-align: center;
+    color: rgba(255, 255, 255, 1); 
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 }
 .hero-btn{
     display: flex;
-    justify-content: space-around;
+    gap: 1px;    
+}
+.hero-btn> button{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 .btn3{
-width: 201px;
-height: 44px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 8px;
-padding: 12px 20px 12px 20px;
-border-radius: 10000px;
-background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    width: 201px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
 .btn4{
-width: 147px;
-height: 44px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 8;
-padding: 12px 20px 12px 20px;
-box-sizing: border-box;
-border: 1px solid rgba(0, 255, 136, 1);
-border-radius: 10000px;
-color: #00FF88;
+    width: 147px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgba(0, 255, 136, 1);
+    border-radius: 10000px;
+    color: #00FF88;
+}
+.text{
+    color: #FFFF;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #1A0B2E;
+}
+.card{
+    display: flex;
+    background-color: #1A0B2E;
+    color: #00FF88;
 }
