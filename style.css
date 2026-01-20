@@ -18,7 +18,6 @@
     background: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 .navigation-bar{
     display: flex;
@@ -154,4 +153,117 @@
     display: flex;
     background-color: #1A0B2E;
     color: #00FF88;
+}
+.Techwave-container{
+    background: rgba(35, 14, 61, 1);
+    color: #FFFFFF;
+    width: 1600px;
+    height: 1121px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    gap: 20px;
+   
+}
+.audio{
+    background: rgba(53, 17, 101, 0.4);
+    color: #FFFFFF;
+    gap: 16px;
+    padding: 40px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.device{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    color: #FFFFFF;
+    gap: 16px;
+    padding: 40px;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.global{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    color: #FFFFFF;
+    gap: 16px;
+    padding: 40px;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.exclusive{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    color: #FFFFFF;
+    gap: 16px;
+    padding: 40px;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.rich{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    color: #FFFFFF;
+    gap: 16px;
+    padding: 40px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.featured-episodes{
+    width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+    text-align: center;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.video-box{
+    background-color: #250D44;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    grid-row: span 3;
+    grid-column: span 1;
+}
+.card-content span{
+    color: #00FF88;
+}
+.host{
+width: 1200px;
+height: 280px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 40px;
+border-radius: 40px;
+background: rgba(53, 17, 101, 0.4)
+}
+.footer{
+    width: 1600px;
+    height: 412px;
+    background-image: url(./assets/footer-bg.png);
+}
+.footer-logo> h1 span{
+    background: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-logo >h1 {
+    color: #FFFFFF;
+}
+.footer{
+width: 1360px;
+height: 172px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+
 }
